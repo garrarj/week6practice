@@ -1,0 +1,88 @@
+/* 
+*****Practice 1***** 
+- Using one import command, import these two google fonts: 'nunito' and 'pt mono'
+*/
+
+/* 
+*****Practice 2***** 
+Create five CSS variables:
+
+1. a variable to contains a valid 'nunito' font stack with declarations for the web font, a backup font, and a default font
+2. a variable to contains a valid 'pt mono' font stack with declarations for the web font, a backup font, and a default font
+3. a variable that contains a light blue colour (using RGB)
+4. a variable that contains an off white colour (using hex)
+5. a variable that contains an orange colour (using hsl)
+
+*/
+
+header{
+    /*
+    *****Practice 3a*****
+    Give your header a background colour - use the light blue variable from above
+    Give your header a bit of padding
+    */
+}
+
+header{
+    /*
+    *****Practice 3b*****
+    Apply the 'nunito' font stack to your h1 tag using the variable above
+    give the h1 tag a bit of margin 
+    **remember to adjust the CSS declaration block so it correctly targets the h1 tag in your header**
+    */
+}
+
+header{
+    /*
+    *****Practice 3c*****
+    Apply the 'pt mono' font stack to your anchor tags using the variable above 
+    Set the background colour of the anchor tags to off white using the variable above
+    give your anchor tags some padding to make them rectangular (so they look like buttons)
+    **remember to adjust the CSS declaration block so it correctly targets the anchor tags inside nav tag in your header**
+    */
+}
+
+header{
+    /*
+    *****Practice 3d*****
+    Using a hover pseudo-class on your anchor tags, set the orange colour from the variable above as background colour
+    **you wants the background colour to change to orange when you hover your cursor over the anchor tags**
+    **remember to adjust the CSS declaration block so it correctly targets the hover pseudo-class of the anchor tags inside nav tag in your header**
+    */
+}
+
+main section{
+    background-color: seashell;
+    padding: 100px 50px;
+    line-height: 1.4em;
+
+    /*
+    *****Practice 4*****
+    Using CSS Grids and Flexbox, recreate the layout you see in the reference image: referenceImage.jpg
+    Apply the 'nunito' font stack to all text in main using the variable above
+    **do not use class names or IDs to complete this practice task, use pseudo-classes to target the elements in main**
+    */
+
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+footer nav a{
+    padding: 5px 15px;
+    margin: 5px 10px;
+    background-color: seashell;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+footer p{
+    color: slategray;
+}
+
+/*
+*****Practice 5****
+Create a media query that will active when the viewport becomes SMALLER than 800px wide
+Inside this media query, style the anchor tags in the footer nav to be stacked vertically (hint: you can do this with just one declaration)
+*/
